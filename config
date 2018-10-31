@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/wch/r-source.git
+	fetch = +refs/heads/trunk:refs/remotes/origin/trunk
+[branch "trunk"]
+	remote = origin
+	merge = refs/heads/trunk
