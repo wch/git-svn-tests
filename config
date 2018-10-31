@@ -9,3 +9,8 @@
 [branch "trunk"]
 	remote = origin
 	merge = refs/heads/trunk
+[svn-remote "svn"]
+	url = https://svn.r-project.org/R
+	fetch = trunk:refs/remotes/origin/trunk
+	branches = branches/*:refs/remotes/origin/*
+	tags = tags/*:refs/remotes/origin/tags/*
